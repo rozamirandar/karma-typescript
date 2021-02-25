@@ -1,0 +1,26 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": ".",
+        "composite": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "ES5",
+        "module": "commonjs",
+        "paths": {
+            "shared": [
+                "../shared"
+            ]
+        },
+        "types": [
+            "jasmine",
+            "node"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "references": [
+        { "path": "../shared/tsconfig.json" }
+    ]
+}

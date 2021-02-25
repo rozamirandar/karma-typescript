@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "experimentalDecorators": true,
+        "outDir": "./lib",
+        "rootDir": ".",
+        "paths": {
+            "shared": [
+                "../shared"
+            ]
+        }
+    },
+    "include": [ "**/*" ],
+    "references": [ { "path": "../shared" } ]
+}
